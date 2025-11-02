@@ -55,13 +55,36 @@ Perfect for **OS courses**, **labs**, and **self-study**.
 ### 2. Clone or Download
 
 ```bash
-git clone [https://github.com/yourusername/virtual-memory-simulator.git](https://github.com/yourusername/virtual-memory-simulator.git)
+git clone [https://github.com/ShamaShamini/virtual-memory-simulator.git](https://github.com/ShamaShamini/virtual-memory-simulator.git)
 cd virtual-memory-simulator
-"""
-"""
 
-
+```
 ### 3. Run the Simulator
 
 ```bash
 python virtual_memory_simulator.py
+
+```
+
+## 🛠️ Usage
+
+1.  Enter a **logical address** ($0$ – $8191$) in the input field.
+2.  Press **Enter** or click the **"Translate"** button.
+3.  **Observe the results:**
+    * **Result:** Page, offset, physical address
+    * **Page Table:** Updated mapping
+    * **Frames:** Visual allocation + animation
+
+
+
+
+
+## 🚀 Future Enhancements
+
+* **Add Page Replacement:** Implement algorithms (FIFO, LRU, Optimal).
+* **Live Statistics:** Integrate fault rate statistics and charts.
+* **Multi-Process Simulation:** Model multiple processes with separate page tables.
+* **Disk Swap Space:** Visualize the interaction with the simulated disk swap space.
+* **Step-by-Step Mode:** Provide a feature for manual, step-by-step execution.
+* **Configuration:** Add GUI options for custom page size and memory configurations.
+"""
