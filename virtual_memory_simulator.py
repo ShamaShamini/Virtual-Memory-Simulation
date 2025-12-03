@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 PAGE_SIZE = 1024
 NUM_PAGES = 8
 NUM_FRAMES = 4
-MAX_ATTEMPTS = 10  # Allow exactly 10 attempts
+MAX_Translations = 10  # Allow exactly 10 Translations 
 
 class VirtualMemoryGUI:
     def __init__(self, root):
@@ -191,3 +191,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
